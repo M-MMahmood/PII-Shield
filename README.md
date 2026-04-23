@@ -50,7 +50,7 @@ PII Shield is a Windows desktop utility that detects and anonymizes personally i
 | Street addresses | `[ADDRESS]` |
 | URLs | `[URL]` |
 
-## Easiest way to get the EXE
+## How To Build & Easiest way to get the EXE
 
 The easiest path for a non-technical user is to let **GitHub Actions** build the Windows executable remotely, then download the finished artifact from the repository’s **Actions** page. GitHub’s documentation explains how to upload files in the browser and download workflow artifacts after the run completes.
 
