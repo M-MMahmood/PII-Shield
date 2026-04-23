@@ -1,8 +1,8 @@
-# PII Anonymizor
+# PII Shield
 
 > **Offline Windows 11 PII Anonymizer — no cloud, no OCR, text-based files only.**
 
-PII Anonymizor is a Windows desktop utility that detects and anonymizes personally identifiable information (PII) in Word and text-based files. The app is designed to work fully offline after launch, and the current project supports a browser-based GitHub build flow so non-technical users can create the Windows `.exe` without installing Python locally. GitHub documents repository creation, browser uploads, Actions workflow runs, and artifact downloads through its web interface.
+PII Shield is a Windows desktop utility that detects and anonymizes personally identifiable information (PII) in Word and text-based files. The app is designed to work fully offline after launch, and the current project supports a browser-based GitHub build flow so non-technical users can create the Windows `.exe` without installing Python locally. GitHub documents repository creation, browser uploads, Actions workflow runs, and artifact downloads through its web interface.
 
 ## What the app does
 
