@@ -705,8 +705,12 @@ class FindingRow(QFrame):
         tag_lbl = make_label(self.finding.tag, bold=True)
         tag_lbl.setStyleSheet("color: #4cc2ff;")
 
+        short_text = self.finding.original[:40]
+        if len(self.finding.original) > 40:
+            short_text += "…"
+
         orig_lbl = make_label(
-            f""{self.finding.original[:40]}{"…" if len(self.finding.original) > 40 else ""}"",
+            f'"{short_text}"',
             "muted"
         )
 
